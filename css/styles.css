@@ -702,3 +702,69 @@ a:hover,a:focus {
   margin: 0;
   color: #ffffff;
 }
+textarea{resize: none;}
+form{
+  width: 448px;
+  margin: 40px 39px 40px 41px;
+}
+.form-p{
+  margin: 0px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+.form-field{
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.form-field input{
+  margin: 0;
+  padding: 0;
+  width: 448px;
+    height: 40px;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.form-field label{
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+  
+    letter-spacing: 0.01em;
+  
+    color: #757575;
+}
+
+.checkbox-right input[type='checkbox']
+{
+  width: 16px;
+    height: 15px;
+    border-radius: 2px;
+}
+.form-field textarea{
+  width: 448px;
+    height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.01em;
+    
+      color: rgba(117, 117, 117, 0.5);
+      padding: 12px 16px;
+}
